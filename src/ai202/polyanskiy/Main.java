@@ -13,6 +13,7 @@ public class Main {
         System.out.println("Print");
         boolean scholarship = student.receivesScholarship(student);
         System.out.println("Hello");
+        System.out.println();
         return new GenericThreeTuple(student, rating, scholarship);
     }
 }
