@@ -10,8 +10,9 @@ public class Main {
     public static GenericThreeTuple getStudentWithRating(String fullName) {
         Student student = new Student(fullName);
         int rating = student.calculateRating();
+        System.out.println("Print");
         boolean scholarship = student.receivesScholarship(student);
-
+        System.out.println("Hello");
         return new GenericThreeTuple(student, rating, scholarship);
     }
 }
